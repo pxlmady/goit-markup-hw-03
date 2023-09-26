@@ -20,6 +20,14 @@ img {
     display: block;
 }
 
+.container {
+    max-width: 1158 ;
+    padding-left: ;
+    padding-right: ;
+    margin-left: ;
+    margin-right: ;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
