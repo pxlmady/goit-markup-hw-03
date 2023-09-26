@@ -1,0 +1,242 @@
+body {
+font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color:#434455;
+    background-color:#FFFFFF;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+
+.logo-part {
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2e2f42
+}
+
+.nav-links {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+
+.address-mail a,
+.address-tel a {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-transform: lowercase;
+        color: #434455;
+}
+
+.main {
+    background-color: #2e2f42;
+}
+
+.main-title {
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        font-style: normal;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #FFFFFF;
+}
+
+.main-button-order {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        cursor: pointer;
+        text-align: center;
+        color: #ffffff;
+        background-color: #4d5ae5;
+        ;
+}
+
+.main-button-order:hover {
+    color: #ffffff;
+    background: #404bbf;
+}
+
+.main-button-order:focus {
+    color: #ffffff;
+    background: #404bbf;
+}
+
+.advantages-title,
+.our-portfolio-title {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.our-team-title {
+    font-family: "Roboto", sans-serif;
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        font-style: normal;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color:#2e2f42;
+}
+
+.advantages-subtitle {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;;
+}
+
+.our-team {
+    background-color: #f4f4fd;
+}
+
+.our-team-li-cadr{
+    background-color: #ffffff;
+}
+
+.team-cadr-title {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.team-cadr-text {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+
+.our-portfolio-subtitle {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #2E2F42;;
+}
+
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-footer-part {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#F4F4FD;
+}
+
+.footer {
+    background-color: #2E2F42;;
+}
+
+.footer-text {
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #F4F4FD;
+}
+
+.advantages-text {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+
+.nav-links:hover {
+    color: #404bbf;
+}
+
+.nav-links:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-item:hover {
+    color: #404bbf;
+}
+
+.address-item:focus {
+    color: #404bbf;
+}
+
+.our-portfolio-text {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #434455;
+}
