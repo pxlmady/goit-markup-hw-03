@@ -157,8 +157,12 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.advantages-title {
     margin-bottom: 8px;
 }
+
 .our-team-title {
     font-family: "Roboto", sans-serif;
         text-align: center;
