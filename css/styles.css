@@ -32,6 +32,12 @@ img {
     align-items: center;
 }
 
+.container-list {
+    padding: 32px 0;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -152,14 +158,10 @@ img {
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
-
-.advantages-title {
     margin-bottom: 8px;
 }
 
@@ -173,6 +175,7 @@ img {
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color:#2e2f42;
+        margin-bottom: 72px;
 }
 
 .advantages-subtitle {
@@ -197,10 +200,18 @@ img {
 
 .our-team {
     background-color: #f4f4fd;
+    padding: 120px 0;
+}
+
+.our-team-ul {
+    display: flex;
+    gap: 24px;
 }
 
 .our-team-li-cadr{
     background-color: #ffffff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-cadr-title {
