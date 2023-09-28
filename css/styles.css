@@ -22,10 +22,15 @@ img {
 
 .container {
     max-width: 1158 ;
-    padding-left: ;
-    padding-right: ;
-    margin-left: ;
-    margin-right: ;
+    padding-left: 15px ;
+    padding-right: 15px ;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+
+.header {
+    padding-top: 24;
+    padding-bottom: 24px;
 }
 
 .logo {
@@ -70,7 +75,7 @@ img {
         color: #434455;
 }
 
-.main {
+.main-section {
     background-color: #2e2f42;
 }
 
@@ -122,6 +127,19 @@ img {
         color: #434455;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .our-team-title {
     font-family: "Roboto", sans-serif;
         text-align: center;
