@@ -21,16 +21,26 @@ img {
 }
 
 .container {
-    max-width: 1158 ;
+    max-width: 1158px ;
     padding-left: 15px ;
     padding-right: 15px ;
     margin: 0 auto;
     outline: 2px solid red;
 }
 
+.container-header {
+    display: flex;
+    align-items: center;
+}
+
 .header {
-    padding-top: 24;
+    padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-nav {
+    display: flex;
 }
 
 .logo {
@@ -41,6 +51,7 @@ img {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px
 }
 
 .logo-part {
@@ -77,6 +88,7 @@ img {
 
 .main-section {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .main-title {
@@ -88,6 +100,7 @@ img {
         letter-spacing: 0.02em;
         text-align: center;
         color: #FFFFFF;
+
 }
 
 .main-button-order {
