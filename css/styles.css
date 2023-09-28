@@ -203,7 +203,8 @@ img {
         line-height: 1.2;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: #2E2F42;;
+        color: #2E2F42;
+        margin-bottom: 8px;
 }
 
 .advantages-ul { 
