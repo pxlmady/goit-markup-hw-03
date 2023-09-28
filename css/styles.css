@@ -157,6 +157,7 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    margin-bottom: 8px;
 }
 .our-team-title {
     font-family: "Roboto", sans-serif;
@@ -179,6 +180,15 @@ img {
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2E2F42;;
+}
+
+.advantages-ul { 
+    display: flex;
+    gap: 24px;
+}
+
+.advantages-li {
+    width: calc((100% - 72px) / 4);
 }
 
 .our-team {
@@ -259,6 +269,10 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: left;
+}
+
+.advantages {
+    padding: 120px 0;
 }
 
 .links {
