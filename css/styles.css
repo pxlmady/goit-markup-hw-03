@@ -25,7 +25,6 @@ img {
     padding-left: 15px ;
     padding-right: 15px ;
     margin: 0 auto;
-    outline: 2px solid red;
 }
 
 .container-header {
@@ -41,6 +40,7 @@ img {
 
 .header-nav {
     display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -65,13 +65,8 @@ img {
 }
 
 .nav-links {
-    font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: #2E2F42;
+        display: flex;
+        gap: 40px;
 }
 
 .address-mail a,
@@ -84,6 +79,11 @@ img {
         letter-spacing: 0.02em;
         text-transform: lowercase;
         color: #434455;
+}
+
+.address-ul {
+    display: flex;
+    gap: 40px;
 }
 
 .main-section {
@@ -256,11 +256,22 @@ img {
         text-align: left;
 }
 
-.nav-links:hover {
+.links {
+font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    padding: 24px 0;
+}
+
+.links:hover {
     color: #404bbf;
 }
 
-.nav-links:focus {
+.links:focus {
     color: #404bbf;
 }
 
