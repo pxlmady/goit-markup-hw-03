@@ -100,6 +100,7 @@ img {
         letter-spacing: 0.02em;
         text-align: center;
         color: #FFFFFF;
+        max-width: 496px;
 
 }
 
@@ -115,7 +116,11 @@ img {
         text-align: center;
         color: #ffffff;
         background-color: #4d5ae5;
-        ;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
 }
 
 .main-button-order:hover {
