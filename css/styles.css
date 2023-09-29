@@ -283,7 +283,6 @@ img {
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
-    margin-left: 16px;
 }
 
 .logo-footer-part {
@@ -309,8 +308,6 @@ font-size: 16px;
     max-width: 264px;
     text-decoration: none;
     width: 264px;
-    margin-left: 16px;
-    margin-top: 17px;
 }
 
 .advantages-text {
